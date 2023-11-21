@@ -1,0 +1,83 @@
+.container {
+  margin: 100px auto;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  width: 500px;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: darkblue;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid darkblue;
+  background-color: transparent;
+  padding: 5px 10px;
+  margin: 10px;
+  width: 250px;
+}
+button {
+  border: 1px solid darkblue;
+  padding: 5px 10px;
+  background-color: darkblue;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+button:hover {
+  background-color: #fff;
+  color: darkblue;
+}
+ul {
+  font-size: 1rem;
+  padding: 20px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  padding: 15px;
+  border-bottom: 2px double khaki;
+  text-align: left;
+  /* width: 100%; */
+}
+li::before {
+  content: "🙂";
+}
+
+.delBtn {
+  border: none;
+  padding: 5px 10px;
+  background-color: khaki;
+  color: darkblue;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 700;
+  border-radius: 15px;
+}
+.on {
+  text-decoration: line-through;
+}
+/* 
+const Btn = styled.button`
+  border: none;
+  padding: 5px 10px;
+  background-color: khaki;
+  color: darkblue;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 700;
+  border-radius: 15px;
+`; */
